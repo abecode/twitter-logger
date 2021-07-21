@@ -1,0 +1,14 @@
+[Unit]
+Description=Daemon collect financial tweets
+After=syslog.target
+
+[Service]
+EnvironmentFile=/home/ec2-user/twitter-logger/setup.env
+ExecStart=/home/ec2-user/twitter-logger/listen-and-log.py
+Restart=always
+RestartSec=2
+User=ec2-user
+Group=ec2-user
+
+[Install]
+WantedBy=multi-user.target
