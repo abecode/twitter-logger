@@ -1,6 +1,8 @@
 # twitter-logger
 Listens to tweets on ec2 with tweepy and archive them to s3 using logrotate, cron, and systemd.  Eventually also analyze the data...
 
+For more info, see [this blog post](https://abecode.github.io/twitter/devops/linux/aws/2021/07/23/twitter-listener.html)
+
 ## Ingredients
 
 - 1 ec2 instance (micro is fine) running stock aws linux
