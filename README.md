@@ -36,6 +36,4 @@ sudo systemctl restart hello.service
 
 # Analysis
 
-todo
-
-- convert gzipped ndjson to parquet
+[see this notebook](https://github.com/abecode/twitter-logger/blob/main/analysis/2022-01-18_snowflake_volume_analysis.ipynb)
